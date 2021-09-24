@@ -94,5 +94,6 @@ navigator.geolocation.getCurrentPosition(position => {
         })
         .catch(err => console.error(err))
 
+
 })
 
