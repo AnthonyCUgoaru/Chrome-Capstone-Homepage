@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}    
+
+body {
+    margin: 0;
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-family: 'Courgette',Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 20px #242424;
+}
+
+main {
+    padding: 15px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1.time 
+{
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+div#stock
+{
+    font-size: 1.3rem;
+}
+
+div#stock > p {
+    margin: 0;
+}
+
+div#stock-top {
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+    align-items:flex-start;
+}
+
+.logo
+{
+    width: 20%;
+    border-radius: 100%;
+}
+
+
+div#stock-top > span {
+   /* margin-left: 10px;*/
+}
+
+/*NOTE TO SELF: create a border to see spacing from divs made in javascript (try justify self, align-self, etc)*/
+
+div#weather {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-self: flex-start;
+}
+
+div#weather > img {
+   /* width: 70px;*/
+}
+
+p.city {
+    width: 100%;
+    text-align: right;
+    margin: 0;
+    margin-top: -20px;
+    font-size: 1.3rem;
+}
+
+p.weather-temp {
+    margin: 0;
+    font-size: 1.7rem;
+    margin-left: -10px;
+}
+
+div.time-google
+{
+   /* margin-bottom: 100px;*/
+}
+div.author
+{
+    font-size: 1.7rem;
+}
+
+
+
