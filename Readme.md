@@ -1,4 +1,6 @@
-#This Capstone is custom home page I made for myself for my Google Chrome Home Page and will display anytime I create a new tab. It consists of multiple API to not only make it look good but be convient.
+#About
+
+This Capstone is custom home page I made for myself for my Google Chrome Home Page and will display anytime I create a new tab. It consists of multiple API to not only make it look good but be convient.
 
 #APIs
 IEX Cloud: for real time changes to stock(s) and their end day highs and low.
